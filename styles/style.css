@@ -9,6 +9,10 @@ body {
     margin: auto;
 }
 
+h2 {
+    margin-top: 20px;
+}
+
 #ppicture {
     width: 15%;
     border: solid 1px;

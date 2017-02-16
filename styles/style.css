@@ -16,6 +16,10 @@ main {
     width: 66.6%;
 }
 
+img {
+    width: 20px;
+}
+
 #ppicture {
     width: 15%;
     border: solid 1px;

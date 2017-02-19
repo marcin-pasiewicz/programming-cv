@@ -76,14 +76,20 @@ p.work {
 
 }
 
-@media print {
-    .html5-progress-bar progress {
-        width: 70%;
-    }
-
-}
-
 footer {
-    margin-top: 3%;
+    margin-top: 2%;
     font-size: 12px;
 }
+@media print {
+    .html5-progress-bar progress {
+    width: 70%;
+}
+    body {
+    zoom: 85%;
+}
+    footer {
+        margin-top: 11%;
+        color: #5E5E5E;
+    }
+}
+

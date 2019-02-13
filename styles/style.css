@@ -20,6 +20,10 @@ img {
     width: 20px;
 }
 
+li > span, li > p {
+    margin-left: 10px;
+}
+
 #ppicture {
     width: 15%;
     border: solid 1px;
@@ -44,13 +48,13 @@ p.work {
     width: 50%;
 }
 
-.html5-progress-bar {
+.progress-bar {
     padding: 15px 15px;
     background-color: #fff;
     -webkit-print-color-adjust: exact;
 }
 
-.html5-progress-bar progress {
+.progress-bar progress {
     background-color: #fff;
     border: 2px solid;
     width: 50%;
@@ -60,17 +64,17 @@ p.work {
     -webkit-print-color-adjust: exact;
 }
 
-.html5-progress-bar progress::-webkit-progress-bar {
+.progress-bar progress::-webkit-progress-bar {
     background-color: #fff;
     -webkit-print-color-adjust: exact;
 }
 
-.html5-progress-bar progress::-webkit-progress-value {
+.progress-bar progress::-webkit-progress-value {
     background-color: #000000;
     -webkit-print-color-adjust: exact;
 }
 
-.html5-progress-bar progress::-moz-progress-bar {
+.progress-bar progress::-moz-progress-bar {
     background-color: #000000;
     -webkit-print-color-adjust: exact;
 
@@ -81,7 +85,7 @@ footer {
     font-size: 12px;
 }
 @media print {
-    .html5-progress-bar progress {
+    .progress-bar progress {
     width: 70%;
 }
     body {

@@ -2,14 +2,15 @@
     margin: 5px;
     font-family: Helvetica, sans-serif;
 }
+
 h2 {
     margin-top: 20px;
 }
 
 body {
-position: relative;
-max-width: 1414px;
-margin: auto;
+    position: relative;
+    max-width: 1414px;
+    margin: auto;
 }
 
 main {
@@ -34,16 +35,19 @@ li > span, li > p {
     min-width: 80px;
     max-width: 214px;
 }
+
 #ppicture:hover {
     transform: rotate(180deg);
     transition: all 1s ease;
 
 }
+
 a {
     color: black;
     text-decoration: none;
 
 }
+
 p.work {
     width: 50%;
 }
@@ -84,13 +88,20 @@ footer {
     margin-top: 2%;
     font-size: 12px;
 }
+
 @media print {
     .progress-bar progress {
-    width: 70%;
-}
+        width: 50%;
+    }
+
     body {
-    zoom: 85%;
-}
+        zoom: 85%;
+    }
+
+    main {
+        width: 100%;
+    }
+
     footer {
         margin-top: 11%;
         color: #5E5E5E;

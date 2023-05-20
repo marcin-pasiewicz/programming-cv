@@ -52,38 +52,6 @@ p.work {
     width: 50%;
 }
 
-.progress-bar {
-    padding: 15px 15px;
-    background-color: #fff;
-    -webkit-print-color-adjust: exact;
-}
-
-.progress-bar progress {
-    background-color: #fff;
-    border: 2px solid;
-    width: 50%;
-    height: 18px;
-    float: left;
-    margin-top: 0;
-    -webkit-print-color-adjust: exact;
-}
-
-.progress-bar progress::-webkit-progress-bar {
-    background-color: #fff;
-    -webkit-print-color-adjust: exact;
-}
-
-.progress-bar progress::-webkit-progress-value {
-    background-color: #000000;
-    -webkit-print-color-adjust: exact;
-}
-
-.progress-bar progress::-moz-progress-bar {
-    background-color: #000000;
-    -webkit-print-color-adjust: exact;
-
-}
-
 footer {
     margin-top: 2%;
     font-size: 12px;
